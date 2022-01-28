@@ -1,0 +1,7 @@
+﻿CREATE TABLE if NOT EXISTS `books` (
+	`id` BIGINT(20) NOT NULL AUTO_INCREMENT,
+	`livro` VARCHAR(80) NOT NULL,
+	`autor` VARCHAR(80) NOT NULL,
+	`pagina` VARCHAR(100) NOT NULL,
+	PRIMARY KEY(`id`)
+);
